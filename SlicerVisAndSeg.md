@@ -16,8 +16,8 @@ You can also try importing and working on any of the volume data sets found [her
 
 - Volume Rendering: [Here's the official Slicer documentation](https://slicer.readthedocs.io/en/latest/user_guide/modules/volumerendering.html) for the module, and [here's a great tutorial](https://github.com/SlicerMorph/Tutorials/blob/main/Slicer_Modules/Volume_Rendering/README.MD) put together by the SlicerMorph team. These describe the basics of how to view and customize your volume.
 - Transforms: [Official Slicer documentation here](https://slicer.readthedocs.io/en/latest/user_guide/modules/transforms.html), SlicerMorph tutorial [here](https://github.com/SlicerMorph/Tutorials/blob/main/Slicer_Modules/Transforms/README.md). It's often useful to be able to reposition your object in the scene. Maybe you want to arrange it so its anatomical axes are aligned with those of the scene, or move it closer to another object, or rotate it relative to a markup of some kind. Whatever! Try making and hardening some transforms.
-- [Animation](https://github.com/SlicerMorph/Spr_2021/blob/main/Day_2/SlicerAnimator/SlicerAnimator.md): Fundamentals of how to make a little movie of your item.
-- [Lighting](https://github.com/SlicerMorph/Spr_2021/blob/main/Day_2/Lighting/Lights.md): This is an additional tool to make your volumes look nice. It's in an extension called **Sandbox**. If you don't have it installed, this is a great opportunity to practice installing a new extension!
+- [Animation](https://github.com/SlicerMorph/Tutorials/tree/main/Animator): Fundamentals of how to make a little movie of your item.
+- [Lights](https://github.com/SlicerMorph/Tutorials/blob/main/Slicer_Modules/Lighting/Lights.md): This is an additional tool to make your volumes look nice. It's in an extension called **Sandbox**. If you don't have it installed, this is a great opportunity to practice installing a new extension!
 
 ## Segmentation and related explorations
 
