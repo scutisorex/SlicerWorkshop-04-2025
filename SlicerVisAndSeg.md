@@ -10,10 +10,12 @@ If you have your own volumetric data, you can try importing it now, in whatever 
 
 You can also try importing and working on any of the volume data sets found [here](https://www.dropbox.com/scl/fo/zrntxx7xvvdcnqigjri3x/AMyXGZHCDZa29_EKANAG_oc?rlkey=v05k3xily6tud1ax4vjwn9j35&st=rm9rli4b&dl=0). Open your chosen data set in each one of these modules and see what you can do with it. 
 
+**HOT TIP!** In the upper left corner of every module, you will find a little dropdown that says "Help and Acknowledgement". If you expand that, most of the time you will find a useful link to some kind of documentation for the module - a publication, a github, a tutorial, something. If you get stuck, check for this!
+
 ### Modules:
 
-- [Volume Rendering](https://github.com/SlicerMorph/Spr_2021/blob/main/Day_2/VolumeRendering/VolumeRendering.md): This is the basics of how to view and customize your volume.
-- [Transforms](https://slicer.readthedocs.io/en/latest/user_guide/modules/transforms.html): It's often useful to be able to reposition your object in the scene. Maybe you want to arrange it so its anatomical axes are aligned with those of the scene, or move it closer to another object, or rotate it relative to a markup of some kind. Whatever! Try making and hardening some transforms.
+- Volume Rendering: [Here's the official Slicer documentation](https://slicer.readthedocs.io/en/latest/user_guide/modules/volumerendering.html) for the module, and [here's a great tutorial](https://github.com/SlicerMorph/Tutorials/blob/main/Slicer_Modules/Volume_Rendering/README.MD) put together by the SlicerMorph team. These describe the basics of how to view and customize your volume.
+- Transforms: [Official Slicer documentation here](https://slicer.readthedocs.io/en/latest/user_guide/modules/transforms.html), SlicerMorph tutorial [here](https://github.com/SlicerMorph/Tutorials/blob/main/Slicer_Modules/Transforms/README.md). It's often useful to be able to reposition your object in the scene. Maybe you want to arrange it so its anatomical axes are aligned with those of the scene, or move it closer to another object, or rotate it relative to a markup of some kind. Whatever! Try making and hardening some transforms.
 - [Animation](https://github.com/SlicerMorph/Spr_2021/blob/main/Day_2/SlicerAnimator/SlicerAnimator.md): Fundamentals of how to make a little movie of your item.
 - [Lighting](https://github.com/SlicerMorph/Spr_2021/blob/main/Day_2/Lighting/Lights.md): This is an additional tool to make your volumes look nice. It's in an extension called **Sandbox**. If you don't have it installed, this is a great opportunity to practice installing a new extension!
 
@@ -35,7 +37,7 @@ In this case, we will be labeling a 3D volume, which consists of a whole bunch o
 
 ## Additional segmentation tools
 
-
+- [Segmentation recipes](https://lassoan.github.io/SlicerSegmentationRecipes/): This is a list of 
 
 
 - Machine learning: If you have a specific repeated segmenting task that you want to automate with machine learning, I would recommend trying out [nnUNet](https://github.com/MIC-DKFZ/nnUNet). You have to be willing to mess around with Python, so if you're terrified of that type of thing this is probably not the best option for you (and also, I get it - Python and command-line stuff in general can be scary and frustrating). But what nnUNet allows you to do is give the program a training data set (e.g., a set of pre-segmented slices), and train a model to do that same segmentation on new datasets. Then you can apply your segmentation model to your datasets in Slicer using the [nnUNet extension](https://github.com/KitwareMedical/SlicerNNUnet)! This is something I'm working on learning myself so if you're interested, let's talk.
