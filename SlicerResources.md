@@ -35,7 +35,7 @@ You can write your own modules in Slicer using Python scripting, if you're into 
 
 Resources:
 
--[SlicerMorph example scripts](https://github.com/SlicerMorph/Scripts#2-run-an-image-processing-pipeline-on-a-folder-of-volumes)
+- [SlicerMorph example scripts](https://github.com/SlicerMorph/Scripts#2-run-an-image-processing-pipeline-on-a-folder-of-volumes)
 - [Script repository](https://slicer.readthedocs.io/en/latest/developer_guide/script_repository.html)
 - [Items on the Discourse labeled 'python'](https://discourse.slicer.org/tag/python)
 - [Slicer Docs Python FAQ](https://slicer.readthedocs.io/en/latest/developer_guide/python_faq.html)
