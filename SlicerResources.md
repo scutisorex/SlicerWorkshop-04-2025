@@ -4,17 +4,23 @@ Slicer can do so so much more than what we've covered here! If you google pretty
 
 ## General Slicer discussion and tips
 
+- [3DSlicer Official Documentation](https://slicer.readthedocs.io/en/latest/index.html)
 - [3DSlicer Wiki](https://www.slicer.org/wiki/Main_Page)
 - [Slicer Discourse](https://discourse.slicer.org/)
 
+## General tutorial resources
+
+- [All the SlicerMorph tutorials](https://training.slicer.org/#segmentation-tutorials) in one place!
+- [Tutorial Compendium](https://training.slicer.org/#segmentation-tutorials): be aware that some of these are based on older versions of Slicer and therefore might have slight differences compared with more recent versions.  
+
 ## Segmentation
 
-- [Segmentation recipes](https://github.com/lassoan/SlicerSegmentationRecipes) by Andras Lasso et al.
+- [Segmentation recipes](https://github.com/lassoan/SlicerSegmentationRecipes) by Andras Lasso et al. These are a great place to get ideas for how to tackle your segmentation problems. If you're stuck, go look at some of these, even if they don't seem directly related to your task - you might find a new trick or see a strategy you hadn't considered.
 - Go on YouTube and search for 3DSlicer segmentation tutorials - there are a bunch of them that might give you new tips and tricks! People are pretty good at figuring out how to make tasks efficient. (i.e., laziness in one form can pay off in the long run with increased productivity!)
 
 ## Machine learning segmentation
 
-- nnUNet: training image classifiers to automate segmentation. See their [GitHub](https://github.com/MIC-DKFZ/nnUNet) and [Slicer implementation](https://github.com/KitwareMedical/SlicerNNUnet).
+- nnUNet: training image classifiers to automate segmentation. See their [GitHub](https://github.com/MIC-DKFZ/nnUNet) and [Slicer implementation](https://github.com/KitwareMedical/SlicerNNUnet). This requires you to be ok with messing around in Python, but you can get great results if you're willing to put up with that. This is good for repeated segmentation tasks, and seems surprisingly versatile once you have your training data set ready.
 - MONAI Label: "An intelligent image labeling and learning tool to quickly annotate new datasets" (verbiage from the MONAI GitHub). Check out their [website](https://monai.io/label.html), [GitHub for the overall project](https://github.com/Project-MONAI/MONAILabel), and [GitHub for the implementation in Slicer](https://github.com/Project-MONAI/MONAILabel/tree/main/plugins/slicer).
 
 ## Morphological analysis

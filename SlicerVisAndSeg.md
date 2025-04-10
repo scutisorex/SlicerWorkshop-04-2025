@@ -21,7 +21,7 @@ You can also try importing and working on any of the volume data sets found [her
 
 ## Segmentation and related explorations
 
-Now it's time to learn one of the most important functions in Slicer: segmentation. This is where you separate an image into different parts and label them. For example, if you were me, you might want to segment apart a bunch of moonrat vertebrae:
+Now it's time to learn one of the most important functions in Slicer: segmentation. This is where you separate an image into different parts and label them. 
 
 In this case, we will be labeling a 3D volume, which consists of a whole bunch of 2D images. If this is your first time ever segmenting, or if you want more in-depth info or a refresher, check out [the official Slicer segmentation documentation.](https://slicer.readthedocs.io/en/latest/user_guide/image_segmentation.html) It's super informative and clear.
 
@@ -31,16 +31,11 @@ In this case, we will be labeling a 3D volume, which consists of a whole bunch o
 
 - I would also encourage you to take a look at the descriptions of segmentation tools in the official Slicer [Segment Editor documentation](https://slicer.readthedocs.io/en/latest/user_guide/modules/segmenteditor.html).
 
+- **N.B.!!** There is a module called Segment Editor, and another one called Segmentations. Just like the "Volumes" and "Volume Rendering" ones. Why they named them this way I'm not sure. Maybe it's their idea of fun. Anyway - be sure you're looking at the right one when you're doing the segmentation tutorials.
+
 - After you've done some segmentation, try out the [Colorize Volume](https://github.com/SlicerMorph/Tutorials/tree/main/ColorizeVolume) module, which is in the Sandbox extension we installed above. It makes stunning 3D renderings of the volume with color labeled by segment. You're gonna like it, I bet. 
 
 - Obviously making your stuff look pretty is important, but you can also take important measurements on segments. Try out the [Segment Statistics module](https://slicer.readthedocs.io/en/latest/user_guide/modules/segmentstatistics.html) to get some quantitative info about the segmentations you make.
-
-## Additional segmentation tools
-
-- [Segmentation recipes](https://lassoan.github.io/SlicerSegmentationRecipes/): This is a list of 
-
-
-- Machine learning: If you have a specific repeated segmenting task that you want to automate with machine learning, I would recommend trying out [nnUNet](https://github.com/MIC-DKFZ/nnUNet). You have to be willing to mess around with Python, so if you're terrified of that type of thing this is probably not the best option for you (and also, I get it - Python and command-line stuff in general can be scary and frustrating). But what nnUNet allows you to do is give the program a training data set (e.g., a set of pre-segmented slices), and train a model to do that same segmentation on new datasets. Then you can apply your segmentation model to your datasets in Slicer using the [nnUNet extension](https://github.com/KitwareMedical/SlicerNNUnet)! This is something I'm working on learning myself so if you're interested, let's talk.
 
 ## 3D Mesh tools
 
@@ -49,3 +44,7 @@ Slicer is not incredible as a mesh editor, but you can accomplish some basic stu
 Import the 3D mesh of a shrew vertebra listed above and try out some of the functions in the [Surface Toolbox](https://slicer.readthedocs.io/en/latest/user_guide/modules/surfacetoolbox.html) module. I have found the smoothing and mirroring tools to be especially useful for my work!
 
 ALSO - there are a number of extensions available for doing specific edits to meshes. Try and see if you can find one by going to the Extension Manager and searching "mesh".
+
+## Additional tools
+
+For a whole bunch more resources, check out the [Slicer Resources page!](https://github.com/scutisorex/SlicerWorkshop-04-2025/blob/main/SlicerResources.md)
